@@ -12,6 +12,6 @@ In the case of the waiter, his possibilities focus more towards orders. He can c
 The user first needs to select which is the “area” in which he plans on making some changes, and after choosing the frame corresponding to it he simply fills in all the required fields with the proper informations and selects the desired operation. The contents of that table will be displayed in real time in the UI.
 
 
-The main structure used in this project would be: the Array List, with it’s primary purpose  to help us store the lists of Menu Items, resulted after executing certain operations.
-Another important structure is the Hash Map, along with Set. These two structures were used in order to model as realistically as possible the orders. Each order placed by a client will have a key computed based on the fields of the class Order, and it will store at the location provided by that key the set of menu items that the client wished to consume.
+The main data structure used in this project would be: the Array List, with it’s primary purpose  to help us store the lists of Menu Items, resulted after executing certain operations.
+Another important data structure is the Hash Map, along with Set. These two structures were used in order to model as realistically as possible the orders. Each order placed by a client will have a key computed based on the fields of the class Order, and it will store at the location provided by that key the set of menu items that the client wished to consume.
 
